@@ -1,7 +1,9 @@
 {
   "name": "fitness_frontend",
+  "slug": "fitness_frontend",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
+  "scheme": "fitness_frontend",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,14 +11,24 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "axios": "^1.7.7",
     "expo": "~52.0.7",
+    "expo-module-scripts": "^4.0.2",
+    "expo-router": "~4.0.6",
     "expo-status-bar": "~2.0.0",
+    "nativewind": "^4.1.23",
+    "postcss": "^8.4.49",
     "react": "18.3.1",
-    "react-native": "0.76.2"
+    "react-native": "0.76.2",
+    "react-native-reanimated": "^3.16.1",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-svg": "^15.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.3.12",
+    "tailwindcss": "^3.4.15",
     "typescript": "^5.3.3"
   },
   "private": true
